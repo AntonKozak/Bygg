@@ -14,3 +14,5 @@ C:\Users\Anton\YrkesUtbidning\Udemy course\1ByggShop\Bygg\Infrastructure\obj\Deb
 C:\Users\Anton\YrkesUtbidning\Udemy course\1ByggShop\Bygg\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
 C:\Users\Anton\YrkesUtbidning\Udemy course\1ByggShop\Bygg\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
 C:\Users\Anton\YrkesUtbidning\Udemy course\1ByggShop\Bygg\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
+C:\Users\Anton\YrkesUtbidning\Udemy course\1ByggShop\Bygg\Infrastructure\bin\Debug\net8.0\Infrastructure.runtimeconfig.json
+C:\Users\Anton\YrkesUtbidning\Udemy course\1ByggShop\Bygg\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache
