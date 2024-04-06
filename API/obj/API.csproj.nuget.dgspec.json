@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Anton\\YrkesUtbidning\\Udemy course\\1ByggShop\\Bygg\\API\\API.csproj": {}
+    "C:\\Users\\Anton\\YrkesUtbidning\\Udemy course\\1ByggShop\\Bygg\\api\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Anton\\YrkesUtbidning\\Udemy course\\1ByggShop\\Bygg\\API\\API.csproj": {
+    "C:\\Users\\Anton\\YrkesUtbidning\\Udemy course\\1ByggShop\\Bygg\\api\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Anton\\YrkesUtbidning\\Udemy course\\1ByggShop\\Bygg\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\Anton\\YrkesUtbidning\\Udemy course\\1ByggShop\\Bygg\\api\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\Anton\\YrkesUtbidning\\Udemy course\\1ByggShop\\Bygg\\API\\API.csproj",
+        "projectPath": "C:\\Users\\Anton\\YrkesUtbidning\\Udemy course\\1ByggShop\\Bygg\\api\\API.csproj",
         "packagesPath": "C:\\Users\\Anton\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Anton\\YrkesUtbidning\\Udemy course\\1ByggShop\\Bygg\\API\\obj\\",
+        "outputPath": "C:\\Users\\Anton\\YrkesUtbidning\\Udemy course\\1ByggShop\\Bygg\\api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Anton\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -174,6 +174,12 @@
           "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.3, )"
             }

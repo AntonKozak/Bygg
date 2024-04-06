@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cfAzbiP87clPUBuUdD9dIIZUgd2UnLYnb6vYMhas3stg2I3D0x2KjDBpXfXhcFC7Ep7a0N1XseBvoQe5Y0fvJQ==",
+  "dgSpecHash": "e0wY4RLjMVY3ubkzVBbOlXHOQO4kY+IGz35bjXVW3gvKdl02BVE5NugM8FxyPSklhWbHKWIZihW2t3GsZl4e0w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Anton\\YrkesUtbidning\\Udemy course\\1ByggShop\\Bygg\\API\\API.csproj",
+  "projectFilePath": "C:\\Users\\Anton\\YrkesUtbidning\\Udemy course\\1ByggShop\\Bygg\\api\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Anton\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Anton\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",

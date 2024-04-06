@@ -1,23 +1,22 @@
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using Core.Entities;
-using Infrastructure.Data;
+using Core.Interfaces;
 
 namespace API.Controllers;
 
 public class ProductController : BaseController
 {
-        private readonly StoreContext _context;
+    private readonly IProductRepository _repo;
 
-    public ProductController(StoreContext context) 
+    public ProductController(IProductRepository repo)
     {
-            _context = context;
+        _repo = repo;
     }
 
     [HttpGet]
     public async Task<ActionResult<List<Product>>> GetProducts()
     {
-        var products = await _context.Products.ToListAsync();
+        var products = await _repo.GetProductsAsync();
         return Ok(products);
     }
 }
