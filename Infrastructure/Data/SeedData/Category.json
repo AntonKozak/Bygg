@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "Name": "Badrum"
+  },
+  {
+    "id": 2,
+    "Name": "Kök"
+  },
+  {
+    "id": 3,
+    "Name": "Vardagsrum"
+  },
+  {
+    "id": 4,
+    "Name": "Sovrum"
+  },
+  {
+    "id": 5,
+    "Name": "Barnrum"
+  },
+  {
+    "id": 6,
+    "Name": "Kontor"
+  },
+  {
+    "id": 7,
+    "Name": "Tvättstuga"
+  },
+  {
+    "id": 8,
+    "Name": "Förråd"
+  },
+  {
+    "id": 9,
+    "Name": "Byggmaterial"
+  },
+  {
+    "id": 10,
+    "Name": "Garage"
+  },
+  {
+    "id": 11,
+    "Name": "Verkstad"
+  },
+  {
+    "id": 12,
+    "Name": "El"
+  },
+  {
+    "id": 13,
+    "Name": "Balkong"
+  },
+  {
+    "id": 14,
+    "Name": "Verktyg"
+  },
+  {
+    "id": 15,
+    "Name": "Trädgård"
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "Name": "Tre"
+  },
+  {
+    "id": 2,
+    "Name": "Plast"
+  },
+  {
+    "id": 3,
+    "Name": "Metall"
+  },
+  {
+    "id": 4,
+    "Name": "Glas"
+  },
+  {
+    "id": 5,
+    "Name": "Papper"
+  },
+  {
+    "id": 6,
+    "Name": "Textil"
+  },
+  {
+    "id": 7,
+    "Name": "Förpackning"
+  },
+  {
+    "id": 8,
+    "Name": "Övrigt"
+  }
+]

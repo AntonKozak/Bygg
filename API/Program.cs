@@ -1,5 +1,7 @@
 using Core.Interfaces;
 using Infrastructure.Data;
+using Infrastructure.Data.Configuration;
+using Infrastructure.Data.SeedData;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -14,7 +16,10 @@ builder.Services.AddDbContext<StoreContext>(opt =>
 {
     opt.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
-builder.Services.AddScoped<IProductRepository, ProductRepository>();
+
+builder.Services.Configure<CloudinarySettings>(builder.Configuration.GetSection("CloudinarySettings"));
+builder.Services.AddScoped<IPhotoService, PhotoService>();
+builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
 
 var app = builder.Build();
 
@@ -37,7 +42,8 @@ var logger = services.GetRequiredService<ILogger<Program>>();
 try
 {
     logger.LogInformation("Migrating database");
-    context.Database.Migrate();
+    await context.Database.MigrateAsync();
+    await StoreContextSeed.SeedAsync(context);
 }
 catch (Exception ex)
 {

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Anton\\YrkesUtbidning\\Udemy course\\1ByggShop\\Bygg\\Core\\Core.csproj": {}
+    "c:\\Users\\Anton\\YrkesUtbidning\\Udemy course\\1ByggShop\\Bygg\\Core\\Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Anton\\YrkesUtbidning\\Udemy course\\1ByggShop\\Bygg\\Core\\Core.csproj": {
+    "c:\\Users\\Anton\\YrkesUtbidning\\Udemy course\\1ByggShop\\Bygg\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Anton\\YrkesUtbidning\\Udemy course\\1ByggShop\\Bygg\\Core\\Core.csproj",
+        "projectUniqueName": "c:\\Users\\Anton\\YrkesUtbidning\\Udemy course\\1ByggShop\\Bygg\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\Anton\\YrkesUtbidning\\Udemy course\\1ByggShop\\Bygg\\Core\\Core.csproj",
+        "projectPath": "c:\\Users\\Anton\\YrkesUtbidning\\Udemy course\\1ByggShop\\Bygg\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\Anton\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Anton\\YrkesUtbidning\\Udemy course\\1ByggShop\\Bygg\\Core\\obj\\",
+        "outputPath": "c:\\Users\\Anton\\YrkesUtbidning\\Udemy course\\1ByggShop\\Bygg\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Anton\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,16 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "CloudinaryDotNet": {
+              "target": "Package",
+              "version": "[1.26.2, )"
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

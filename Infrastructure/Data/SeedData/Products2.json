@@ -1,0 +1,110 @@
+[
+  {
+    "Name": "Trall",
+    "Photos": [
+      {
+        "Url": "https://randomuser.me/api/portraits/women/24.jpg",
+        "IsMain": true
+      }
+    ]
+  },
+  {
+    "Name": "Glasögon",
+    "Photos": [
+      {
+        "url": "https://randomuser.me/api/portraits/men/55.jpg",
+        "isMain": true
+      }
+    ]
+  },
+  {
+    "Name": "Cykel",
+    "Photos": [
+      {
+        "url": "https://randomuser.me/api/portraits/women/56.jpg",
+        "isMain": true
+      }
+    ]
+  },
+  {
+    "Name": "Kamera",
+    "Photos": [
+      {
+        "url": "https://randomuser.me/api/portraits/men/57.jpg",
+        "isMain": true
+      }
+    ]
+  },
+  {
+    "Name": "Möbel",
+    "Photos": [
+      {
+        "url": "https://randomuser.me/api/portraits/women/58.jpg",
+        "isMain": true
+      }
+    ]
+  },
+  {
+    "Name": "Laptop",
+    "Photos": [
+      {
+        "url": "https://randomuser.me/api/portraits/men/59.jpg",
+        "isMain": true
+      }
+    ]
+  },
+  {
+    "Name": "Klocka",
+    "Photos": [
+      {
+        "url": "https://randomuser.me/api/portraits/women/60.jpg",
+        "isMain": true
+      }
+    ]
+  },
+  {
+    "Name": "Skor",
+    "Photos": [
+      {
+        "url": "https://randomuser.me/api/portraits/men/61.jpg",
+        "isMain": true
+      }
+    ]
+  },
+  {
+    "Name": "Smycken",
+    "Photos": [
+      {
+        "url": "https://randomuser.me/api/portraits/women/62.jpg",
+        "isMain": true
+      }
+    ]
+  },
+  {
+    "Name": "Kaffemaskin",
+    "Photos": [
+      {
+        "url": "https://randomuser.me/api/portraits/men/63.jpg",
+        "isMain": true
+      }
+    ]
+  },
+  {
+    "Name": "Böcker",
+    "Photos": [
+      {
+        "url": "https://randomuser.me/api/portraits/women/64.jpg",
+        "isMain": true
+      }
+    ]
+  },
+  {
+    "Name": "Gymutrustning",
+    "Photos": [
+      {
+        "url": "https://randomuser.me/api/portraits/men/65.jpg",
+        "isMain": true
+      }
+    ]
+  }
+]

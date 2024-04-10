@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Infrastructure.Data.Migrations
 {
     [DbContext(typeof(StoreContext))]
-    [Migration("20240405164233_InitialCreate")]
+    [Migration("20240410185511_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -27,6 +27,7 @@ namespace Infrastructure.Data.Migrations
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("Name")
+                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.HasKey("Id");
@@ -40,18 +41,21 @@ namespace Infrastructure.Data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<int?>("PhotoId")
+                    b.Property<bool>("IsMain")
                         .HasColumnType("INTEGER");
 
                     b.Property<int>("ProductId")
                         .HasColumnType("INTEGER");
 
+                    b.Property<string>("PublicId")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
                     b.Property<string>("Url")
+                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("PhotoId");
 
                     b.HasIndex("ProductId");
 
@@ -64,7 +68,10 @@ namespace Infrastructure.Data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<int>("CategoryId")
+                    b.Property<int?>("AvailabilityStatus")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int?>("CategoryId")
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("Description")
@@ -75,13 +82,13 @@ namespace Infrastructure.Data.Migrations
                         .HasMaxLength(300)
                         .HasColumnType("TEXT");
 
-                    b.Property<decimal>("Price")
+                    b.Property<decimal?>("Price")
                         .HasColumnType("decimal(18,2)");
 
-                    b.Property<int>("ProductBrandId")
+                    b.Property<int?>("ProductBrandId")
                         .HasColumnType("INTEGER");
 
-                    b.Property<int>("ProductTypeId")
+                    b.Property<int?>("ProductTypeId")
                         .HasColumnType("INTEGER");
 
                     b.HasKey("Id");
@@ -102,6 +109,7 @@ namespace Infrastructure.Data.Migrations
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("Name")
+                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.HasKey("Id");
@@ -116,6 +124,7 @@ namespace Infrastructure.Data.Migrations
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("Name")
+                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.HasKey("Id");
@@ -125,10 +134,6 @@ namespace Infrastructure.Data.Migrations
 
             modelBuilder.Entity("Core.Entities.Photo", b =>
                 {
-                    b.HasOne("Core.Entities.Photo", null)
-                        .WithMany("Photos")
-                        .HasForeignKey("PhotoId");
-
                     b.HasOne("Core.Entities.Product", "Product")
                         .WithMany("Photos")
                         .HasForeignKey("ProductId")
@@ -142,32 +147,21 @@ namespace Infrastructure.Data.Migrations
                 {
                     b.HasOne("Core.Entities.Category", "Category")
                         .WithMany()
-                        .HasForeignKey("CategoryId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("CategoryId");
 
                     b.HasOne("Core.Entities.ProductBrand", "ProductBrand")
                         .WithMany()
-                        .HasForeignKey("ProductBrandId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("ProductBrandId");
 
                     b.HasOne("Core.Entities.ProductType", "ProductType")
                         .WithMany()
-                        .HasForeignKey("ProductTypeId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("ProductTypeId");
 
                     b.Navigation("Category");
 
                     b.Navigation("ProductBrand");
 
                     b.Navigation("ProductType");
-                });
-
-            modelBuilder.Entity("Core.Entities.Photo", b =>
-                {
-                    b.Navigation("Photos");
                 });
 
             modelBuilder.Entity("Core.Entities.Product", b =>

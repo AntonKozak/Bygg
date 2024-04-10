@@ -1,0 +1,338 @@
+[
+  {
+    "Name": "Trall",
+    "Description": "Trall som oftast används som golvläggning för altan, uteplats eller balkong. Notera träskyddsklassen (impregnering) om produkt kan användas vid markkontakt eller ej.",
+    "Price": 100,
+    "AvailabilityStatus": 0,
+    "category": 1,
+    "productType": 1,
+    "productBrand": 1,
+    "Photos": [
+      {
+        "Url": "https://randomuser.me/api/portraits/women/24.jpg",
+        "IsMain": true,
+        "PublicId": "trall1"
+      }
+    ]
+  },
+  {
+    "Name": "Glasögon",
+    "Description": "Stilrena glasögon med UV-skydd. Perfekt för sommardagar och stranden.",
+    "Price": 200,
+    "AvailabilityStatus": 1,
+    "CategoryId": 2,
+    "ProductTypeId": 2,
+    "ProductBrandId": 2,
+    "Photos": [
+      {
+        "Url": "https://randomuser.me/api/portraits/men/55.jpg",
+        "IsMain": true,
+        "PublicId": "trall1"
+      }
+    ]
+  },
+  {
+    "Name": "Cykel",
+    "Description": "Högkvalitativ mountainbike för äventyrliga turer i naturen.",
+    "Price": 500,
+    "AvailabilityStatus": 0,
+    "CategoryId": 3,
+    "ProductTypeId": 3,
+    "ProductBrandId": 3,
+    "Photos": [
+      {
+        "Url": "https://randomuser.me/api/portraits/women/56.jpg",
+        "IsMain": true,
+        "PublicId": "trall1"
+      }
+    ]
+  },
+  {
+    "Name": "Kamera",
+    "Description": "Avancerad digitalkamera med 4K-upplösning och bildstabilisering.",
+    "Price": 800,
+    "AvailabilityStatus": 1,
+    "CategoryId": 4,
+    "ProductTypeId": 4,
+    "ProductBrandId": 4,
+    "Photos": [
+      {
+        "Url": "https://randomuser.me/api/portraits/men/57.jpg",
+        "IsMain": true,
+        "PublicId": "trall1"
+      }
+    ]
+  },
+  {
+    "Name": "Möbel",
+    "Description": "Elegant soffa med modern design och hög komfort.",
+    "Price": 1200,
+    "AvailabilityStatus": 0,
+    "CategoryId": 5,
+    "ProductTypeId": 5,
+    "ProductBrandId": 5,
+    "Photos": [
+      {
+        "Url": "https://randomuser.me/api/portraits/women/58.jpg",
+        "IsMain": true,
+        "PublicId": "trall1"
+      }
+    ]
+  },
+  {
+    "Name": "Laptop",
+    "Description": "Kraftfull laptop med snabb processor och lång batteritid.",
+    "Price": 1500,
+    "AvailabilityStatus": 1,
+    "CategoryId": 6,
+    "ProductTypeId": 6,
+    "ProductBrandId": 6,
+    "Photos": [
+      {
+        "Url": "https://randomuser.me/api/portraits/men/59.jpg",
+        "IsMain": true,
+        "PublicId": "trall1"
+      }
+    ]
+  },
+  {
+    "Name": "Klocka",
+    "Description": "Elegant klocka med klassiskt armbandsdesign och vattentäthet.",
+    "Price": 300,
+    "AvailabilityStatus": 0,
+    "CategoryId": 7,
+    "ProductTypeId": 7,
+    "ProductBrandId": 7,
+    "Photos": [
+      {
+        "Url": "https://randomuser.me/api/portraits/women/60.jpg",
+        "IsMain": true,
+        "PublicId": "trall1"
+      }
+    ]
+  },
+  {
+    "Name": "Skor",
+    "Description": "Komfortabla löparskor med bra stötdämpning och andningsförmåga.",
+    "Price": 100,
+    "AvailabilityStatus": 0,
+    "CategoryId": 8,
+    "ProductTypeId": 2,
+    "ProductBrandId": 8,
+    "Photos": [
+      {
+        "Url": "https://randomuser.me/api/portraits/men/61.jpg",
+        "IsMain": true,
+        "PublicId": "trall1"
+      }
+    ]
+  },
+  {
+    "Name": "Smycken",
+    "Description": "Eleganta smycken med äkta diamanter och silvermaterial.",
+    "Price": 400,
+    "AvailabilityStatus": 2,
+    "CategoryId": 9,
+    "ProductTypeId": 1,
+    "ProductBrandId": 9,
+    "Photos": [
+      {
+        "Url": "https://randomuser.me/api/portraits/women/62.jpg",
+        "IsMain": true,
+        "PublicId": "trall1"
+      }
+    ]
+  },
+  {
+    "Name": "Kaffemaskin",
+    "Description": "Automatisk kaffemaskin med inbyggd kaffekvarn och mjölkskummare.",
+    "Price": 600,
+    "AvailabilityStatus": 0,
+    "CategoryId": 2,
+    "ProductTypeId": 2,
+    "ProductBrandId": 9,
+    "Photos": [
+      {
+        "Url": "https://randomuser.me/api/portraits/men/63.jpg",
+        "IsMain": true,
+        "PublicId": "trall1"
+      }
+    ]
+  },
+  {
+    "Name": "Böcker",
+    "Description": "Bestsäljande böcker från olika genrer och författare.",
+    "Price": 20,
+    "AvailabilityStatus": 1,
+    "CategoryId": 11,
+    "ProductTypeId": 3,
+    "ProductBrandId": 11,
+    "Photos": [
+      {
+        "Url": "https://randomuser.me/api/portraits/women/64.jpg",
+        "IsMain": true,
+        "PublicId": "trall1"
+      }
+    ]
+  },
+  {
+    "Name": "Gymutrustning",
+    "Description": "Högkvalitativ gymutrustning för hemmabruk eller kommersiella gym.",
+    "Price": 1000,
+    "AvailabilityStatus": 0,
+    "CategoryId": 12,
+    "ProductTypeId": 4,
+    "ProductBrandId": 1,
+    "Photos": [
+      {
+        "Url": "https://randomuser.me/api/portraits/men/65.jpg",
+        "IsMain": true,
+        "PublicId": "trall1"
+      }
+    ]
+  },
+  {
+    "Name": "TV",
+    "Description": "Ultra HD-TV med smarta funktioner och inbyggd streaming.",
+    "Price": 900,
+    "AvailabilityStatus": 2,
+    "CategoryId": 13,
+    "ProductTypeId": 5,
+    "ProductBrandId": 2,
+    "Photos": [
+      {
+        "Url": "https://randomuser.me/api/portraits/women/66.jpg",
+        "IsMain": true,
+        "PublicId": "trall1"
+      }
+    ]
+  },
+  {
+    "Name": "Spelkonsol",
+    "Description": "Senaste spelkonsolen med högpresterande grafik och snabb processor.",
+    "Price": 400,
+    "AvailabilityStatus": 0,
+    "CategoryId": 14,
+    "ProductTypeId": 6,
+    "ProductBrandId": 3,
+    "Photos": [
+      {
+        "Url": "https://randomuser.me/api/portraits/men/67.jpg",
+        "IsMain": true,
+        "PublicId": "trall1"
+      }
+    ]
+  },
+  {
+    "Name": "Drönare",
+    "Description": "Avancerad drönare med kamerafunktion och stabil flygförmåga.",
+    "Price": 700,
+    "AvailabilityStatus": 1,
+    "CategoryId": 12,
+    "ProductTypeId": 6,
+    "ProductBrandId": 4,
+    "Photos": [
+      {
+        "Url": "https://randomuser.me/api/portraits/women/68.jpg",
+        "IsMain": true,
+        "PublicId": "trall1"
+      }
+    ]
+  },
+  {
+    "Name": "Hörlurar",
+    "Description": "Trådlösa hörlurar med brusreducering och hög ljudkvalitet.",
+    "Price": 250,
+    "AvailabilityStatus": 0,
+    "CategoryId": 11,
+    "ProductTypeId": 3,
+    "ProductBrandId": 6,
+    "Photos": [
+      {
+        "Url": "https://randomuser.me/api/portraits/men/69.jpg",
+        "IsMain": true,
+        "PublicId": "trall1"
+      }
+    ]
+  },
+  {
+    "Name": "Köksredskap",
+    "Description": "Praktiska köksredskap för matlagning och bakning.",
+    "Price": 50,
+    "AvailabilityStatus": 2,
+    "CategoryId": 7,
+    "ProductTypeId": 7,
+    "ProductBrandId": 7,
+    "Photos": [
+      {
+        "Url": "https://randomuser.me/api/portraits/women/70.jpg",
+        "IsMain": true,
+        "PublicId": "trall1"
+      }
+    ]
+  },
+  {
+    "Name": "Mobiltelefon",
+    "Description": "Avancerad mobiltelefon med snabb processor och lång batteritid.",
+    "Price": 800,
+    "AvailabilityStatus": 0,
+    "CategoryId": 11,
+    "ProductTypeId": 5,
+    "ProductBrandId": 4,
+    "Photos": [
+      {
+        "Url": "https://randomuser.me/api/portraits/men/71.jpg",
+        "IsMain": true,
+        "PublicId": "trall1"
+      }
+    ]
+  },
+  {
+    "Name": "Klänning",
+    "Description": "Elegant klänning med trendig design och hög kvalitet.",
+    "Price": 150,
+    "AvailabilityStatus": 1,
+    "CategoryId": 11,
+    "ProductTypeId": 1,
+    "ProductBrandId": 9,
+    "Photos": [
+      {
+        "Url": "https://randomuser.me/api/portraits/women/72.jpg",
+        "IsMain": true,
+        "PublicId": "trall1"
+      }
+    ]
+  },
+  {
+    "Name": "Resväska",
+    "Description": "Robust resväska med låsbara hjul och teleskophandtag.",
+    "Price": 120,
+    "AvailabilityStatus": 0,
+    "CategoryId": 2,
+    "ProductTypeId": 2,
+    "ProductBrandId": 2,
+    "Photos": [
+      {
+        "Url": "https://randomuser.me/api/portraits/men/73.jpg",
+        "IsMain": true,
+        "PublicId": "trall1"
+      }
+    ]
+  },
+  {
+    "Name": "Trall",
+    "Description": "Trall som oftast används som golvläggning för altan, uteplats eller balkong. Notera träskyddsklassen (impregnering) om produkt kan användas vid markkontakt eller ej.",
+    "Price": 100,
+    "AvailabilityStatus": 0,
+    "CategoryId": 1,
+    "ProductTypeId": 1,
+    "ProductBrandId": 1,
+    "Photos": [
+      {
+        "Url": "https://randomuser.me/api/portraits/women/54.jpg",
+        "IsMain": true,
+        "PublicId": "trall1"
+      }
+    ]
+  }
+]
