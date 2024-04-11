@@ -42,10 +42,13 @@ public class PhotoController : BaseController
     }
 
     [HttpPost("add-photo/{productId}")]
-    public async Task<ActionResult<PhotoDto>> AddPhoto([FromForm] IFormFile file, int productId)
+    public async Task<ActionResult<PhotoDto>> AddPhoto(IFormFile file, int productId)
     {
         // Retrieve the product by its ID
-        var product = await _productRepo.GetByIdAsync(productId);
+
+        // var product = await _productRepo.GetByIdAsync(productId);
+        var creteria = new ProductWithTypesAndBrandsAndCategorySpecification(productId);
+        var product = await _productRepo.GetEntityWithSpec(creteria);
 
         if (product == null)
         {
@@ -65,12 +68,8 @@ public class PhotoController : BaseController
         {
             Url = photoResult.SecureUrl.AbsoluteUri,
             PublicId = photoResult.PublicId,
+            IsMain = product.Photos.Count == 0
         };
-
-        if (product.Photos.Count == 0)
-        {
-            photo.IsMain = true;
-        }
 
         product.Photos.Add(photo);
         if (
