@@ -3,9 +3,7 @@ using Core.Entities;
 using Core.Interfaces;
 using API.Dtos;
 using Core.Specifications;
-using CloudinaryDotNet.Actions;
-using Infrastructure.Data;
-using Microsoft.EntityFrameworkCore;
+using AutoMapper;
 
 namespace API.Controllers;
 
@@ -13,32 +11,39 @@ public class ProductController : BaseController
 {
     private readonly IPhotoService _photoService;
     private readonly IGenericRepository<Product> _productRepo;
+    private readonly IMapper _mapper;
     public ProductController(
         IPhotoService photoService,
-        IGenericRepository<Product> productRepo
+        IGenericRepository<Product> productRepo,
+        IMapper mapper
         )
     {
         _photoService = photoService;
         _productRepo = productRepo;
+        _mapper = mapper;
     }
 
     [HttpGet]
-    public async Task<ActionResult<List<Product>>> GetProducts()
+    public async Task<ActionResult<IEnumerable<ProductDto>>> GetProducts()
     {
         var spec = new ProductWithTypesAndBrandsAndCategorySpecification();
 
-        var products = await _productRepo.ListAsync(spec);
-        return Ok(products);
+        IReadOnlyList<Product> products = await _productRepo.ListAsync(spec);
+
+        var productsDtoToReturn = _mapper.Map<IEnumerable<ProductDto>>(products);
+
+        return Ok(productsDtoToReturn);
     }
 
     [HttpGet("{id}")]
-    public async Task<ActionResult<GetProduct>> GetProduct(int id)
+    public async Task<ActionResult<ProductDto>> GetProduct(int id)
     {
         var creteria = new ProductWithTypesAndBrandsAndCategorySpecification(id);
         var product = await _productRepo.GetEntityWithSpec(creteria);
 
+        var productsDtoToReturn = _mapper.Map<IEnumerable<Product>>(product);
 
-        return Ok(product);
+        return Ok(productsDtoToReturn);
     }
 
     [HttpPost("add-product-with-photo")]
@@ -71,7 +76,8 @@ public class ProductController : BaseController
         {
             Url = photoResult.SecureUrl.AbsoluteUri,
             IsMain = true,
-            ProductId = product.Id // Assign the product's ID after saving
+            ProductId = product.Id, // Assign the product's ID after saving
+            PublicId = photoResult.PublicId
         };
 
         // Update the product entity with the associated photo
@@ -81,19 +87,23 @@ public class ProductController : BaseController
         await _productRepo.UpdateAsync(product);
 
         // Map the Product entity to a DTO for response
-        var productDto = new ProductDto
-        {
-            Id = product.Id,
-            Name = product.Name,
-            Description = product.Description,
-            Price = product.Price,
-            Category = product.Category.Name,
-            ProductType = product.ProductType.Name,
-            ProductBrand = product.ProductBrand.Name,
-            PictureUrl = photo.Url
-        };
+        // var productDto = new ProductDto
+        // {
+        //     Id = product.Id,
+        //     Name = product.Name,
+        //     Description = product.Description,
+        //     Price = product.Price,
+        //     Category = product.Category.Name,
+        //     ProductType = product.ProductType.Name,
+        //     ProductBrand = product.ProductBrand.Name,
+        //     MainPhotoUrl = photo.Url
+        // };
 
-        return Ok(productDto);
+
+        var creteria = new ProductWithTypesAndBrandsAndCategorySpecification(product.Id);
+        var newProduct = await _productRepo.GetEntityWithSpec(creteria);
+
+        return Ok(_mapper.Map<ProductDto>(newProduct));
     }
 
 }
