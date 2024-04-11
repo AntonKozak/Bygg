@@ -5856,11 +5856,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Anton\\YrkesUtbidning\\Udemy course\\1ByggShop\\Bygg\\Infrastructure\\Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\Anton\\YrkesUtbidning\\Udemy course\\1ByggShop\\Bygg\\Infrastructure\\Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "c:\\Users\\Anton\\YrkesUtbidning\\Udemy course\\1ByggShop\\Bygg\\Infrastructure\\Infrastructure.csproj",
+      "projectPath": "C:\\Users\\Anton\\YrkesUtbidning\\Udemy course\\1ByggShop\\Bygg\\Infrastructure\\Infrastructure.csproj",
       "packagesPath": "C:\\Users\\Anton\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Anton\\YrkesUtbidning\\Udemy course\\1ByggShop\\Bygg\\Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\Anton\\YrkesUtbidning\\Udemy course\\1ByggShop\\Bygg\\Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Anton\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5877,8 +5877,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "c:\\Users\\Anton\\YrkesUtbidning\\Udemy course\\1ByggShop\\Bygg\\Core\\Core.csproj": {
-              "projectPath": "c:\\Users\\Anton\\YrkesUtbidning\\Udemy course\\1ByggShop\\Bygg\\Core\\Core.csproj"
+            "C:\\Users\\Anton\\YrkesUtbidning\\Udemy course\\1ByggShop\\Bygg\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\Anton\\YrkesUtbidning\\Udemy course\\1ByggShop\\Bygg\\Core\\Core.csproj"
             }
           }
         }

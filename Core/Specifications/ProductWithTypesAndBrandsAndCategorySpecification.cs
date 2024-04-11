@@ -10,6 +10,8 @@ public class ProductWithTypesAndBrandsAndCategorySpecification : BaseSpecificati
         AddInclude(x => x.ProductType);
         AddInclude(x => x.ProductBrand);
         AddInclude(x => x.Category);
+        AddInclude(x => x.Photos);
+
     }
 
     public ProductWithTypesAndBrandsAndCategorySpecification(int id) : base(x => x.Id == id)
@@ -17,6 +19,7 @@ public class ProductWithTypesAndBrandsAndCategorySpecification : BaseSpecificati
         AddInclude(x => x.ProductType);
         AddInclude(x => x.ProductBrand);
         AddInclude(x => x.Category);
+        AddInclude(x => x.Photos);
     }
 
 

@@ -46,16 +46,27 @@ API description for Bygg project Bygg
 
 | Bygg.sln
 Program.cs is the entry point for the application
+
+### API
+
 | |-- API\
 | | |-- API.csproj
 | | |-- API.csproj has a reference to Infrastructure.csproj
 Class Library
+
+### Core
+
 Entities and Interfaces for the application
+
 | |-- Core\
 | | |-- Core.csproj
 | | |-- Core.csproj has no references
 Class Library
+
+### Infrastructure
+
 Data Base with logic repository and Unit of Work
+
 | |-- Infrastructure\
 | | |-- Infrastructure.csproj
 | | |-- Infrastructure.csproj has a reference to Core.csproj
@@ -72,7 +83,7 @@ Core is the project that will contain all the business logic for the application
 
 Infrastructure is the project that will contain all the database logic for the application. It will be the main project that will be used to interact with the database.
 
-![Bygg](./DotnetBygg.jpg)
+![Bygg](DotnetBygg.jpg)
 
 ##### Product Configuration
 

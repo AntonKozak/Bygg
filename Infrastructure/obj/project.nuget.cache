@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qRXpTbSC0jSoNCzWSbh//gt4mTc8QS6R7valHgYgh3bJTdmb4MurDdsR0+hE/v+4gr2icRmJ8wfQxaNP2uU+nw==",
+  "dgSpecHash": "1XLMVW8JUesgdzP0hRxsCdsIbdwq/I9ht4MLfn2SqgqLrdfV0qlq9CUxQp9c7GokZgKqlnJmItF9i19os0GbjQ==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Anton\\YrkesUtbidning\\Udemy course\\1ByggShop\\Bygg\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\Anton\\YrkesUtbidning\\Udemy course\\1ByggShop\\Bygg\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Anton\\.nuget\\packages\\cloudinarydotnet\\1.26.2\\cloudinarydotnet.1.26.2.nupkg.sha512",
     "C:\\Users\\Anton\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

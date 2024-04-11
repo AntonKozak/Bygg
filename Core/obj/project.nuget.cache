@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ypgz/gSLus3qLPNQwXOHaWBqATJAeU5AV4pzXwg4azvWKzlZeeZlDpXIdSOGLHnKs4c5l5rrXjj/Jc/V7ywp9w==",
+  "dgSpecHash": "oGke8hckt9G/S9BT3AH7FQOUtUora0dm/QBZTNBICuqw3OAfCpNqm5sJerZeuRNbxppjXCcZnpPrHHBpPuNgDw==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Anton\\YrkesUtbidning\\Udemy course\\1ByggShop\\Bygg\\Core\\Core.csproj",
+  "projectFilePath": "C:\\Users\\Anton\\YrkesUtbidning\\Udemy course\\1ByggShop\\Bygg\\Core\\Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Anton\\.nuget\\packages\\cloudinarydotnet\\1.26.2\\cloudinarydotnet.1.26.2.nupkg.sha512",
     "C:\\Users\\Anton\\.nuget\\packages\\microsoft.aspnetcore.http\\2.2.2\\microsoft.aspnetcore.http.2.2.2.nupkg.sha512",

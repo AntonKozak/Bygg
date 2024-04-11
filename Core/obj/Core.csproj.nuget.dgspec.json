@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Anton\\YrkesUtbidning\\Udemy course\\1ByggShop\\Bygg\\Core\\Core.csproj": {}
+    "C:\\Users\\Anton\\YrkesUtbidning\\Udemy course\\1ByggShop\\Bygg\\Core\\Core.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Anton\\YrkesUtbidning\\Udemy course\\1ByggShop\\Bygg\\Core\\Core.csproj": {
+    "C:\\Users\\Anton\\YrkesUtbidning\\Udemy course\\1ByggShop\\Bygg\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Anton\\YrkesUtbidning\\Udemy course\\1ByggShop\\Bygg\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\Anton\\YrkesUtbidning\\Udemy course\\1ByggShop\\Bygg\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "c:\\Users\\Anton\\YrkesUtbidning\\Udemy course\\1ByggShop\\Bygg\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\Anton\\YrkesUtbidning\\Udemy course\\1ByggShop\\Bygg\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\Anton\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Anton\\YrkesUtbidning\\Udemy course\\1ByggShop\\Bygg\\Core\\obj\\",
+        "outputPath": "C:\\Users\\Anton\\YrkesUtbidning\\Udemy course\\1ByggShop\\Bygg\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Anton\\AppData\\Roaming\\NuGet\\NuGet.Config",
